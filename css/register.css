@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  background: #ddd; }
+
+.box {
+  background: #ddd; }
+  .box .top {
+    width: 982px;
+    height: 110px;
+    padding-left: 200px;
+    line-height: 110px;
+    margin-top: 20px; }
+    .box .top img {
+      width: 159px;
+      height: 51px; }
+    .box .top span {
+      font-size: 30px; }
+    .box .top b {
+      font-size: 25px; }
+  .box .main {
+    width: 950px;
+    height: 635px;
+    border: 1px solid #bbb;
+    margin: 0 auto;
+    background: #fff; }
+    .box .main .main-top {
+      width: 950px;
+      height: 51px; }
+      .box .main .main-top p {
+        width: 950px;
+        line-height: 51px;
+        font-size: 14px;
+        padding-left: 8px;
+        color: #f00; }
+        .box .main .main-top p span {
+          padding-left: 650px;
+          color: #000; }
+    .box .main .bottom {
+      width: 950px;
+      height: 582px;
+      margin-left: 180px; }
+      .box .main .bottom .inf {
+        width: 759px;
+        height: 56px;
+        margin: 10px auto; }
+        .box .main .bottom .inf label {
+          display: block;
+          width: 136px;
+          height: 36px;
+          float: left;
+          text-align: right;
+          line-height: 36px;
+          margin-right: 6px; }
+        .box .main .bottom .inf input {
+          width: 302px;
+          height: 36px; }
+      .box .main .bottom p {
+        font-size: 12px;
+        color: #000;
+        margin-left: 230px; }
+      .box .main .bottom button {
+        width: 300px;
+        height: 36px;
+        background: #f00;
+        color: #fff;
+        margin-left: 200px;
+        margin-top: 30px; }
+
+/*# sourceMappingURL=register.css.map */

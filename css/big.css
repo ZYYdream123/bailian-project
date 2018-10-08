@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%; }
+
+.header-mid {
+  width: 100%;
+  height: 100px; }
+  .header-mid .brother {
+    width: 200px;
+    height: 90px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 10px; }
+  .header-mid .m30 {
+    margin-left: 30px; }
+  .header-mid input {
+    width: 480px;
+    height: 35px;
+    border: none; }
+  .header-mid .input {
+    width: 480px;
+    height: 35px;
+    border: 3px solid #f00; }
+  .header-mid button {
+    width: 85px;
+    height: 41px;
+    background: #f00;
+    color: #fff;
+    margin-top: 20px;
+    border: none; }
+  .header-mid .search li a {
+    color: #bbb; }
+  .header-mid .search li a:hover {
+    color: #ff4800; }
+
+.navbig-s {
+  width: 100%;
+  height: 36px;
+  background: #000; }
+  .navbig-s .nav-s {
+    width: 60%;
+    height: 36px;
+    margin-left: 200px; }
+    .navbig-s .nav-s li {
+      float: left; }
+      .navbig-s .nav-s li a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 30px;
+        line-height: 36px; }
+      .navbig-s .nav-s li .Lnav {
+        display: none;
+        position: absolute;
+        z-index: 4;
+        top: 25px;
+        background: #000;
+        opacity: 0.5; }
+        .navbig-s .nav-s li .Lnav a {
+          color: #fff; }
+        .navbig-s .nav-s li .Lnav li .container1 {
+          background: #fff; }
+          .navbig-s .nav-s li .Lnav li .container1 li a {
+            color: #000;
+            font-size: 13px; }
+
+.showtime {
+  position: relative; }
+
+.box {
+  height: 598px; }
+  .box .small {
+    width: 700px;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 1px solid #ddd; }
+    .box .small img {
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+    .box .small .wrap {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      z-index: 999; }
+    .box .small .grayBox {
+      display: none;
+      width: 100px;
+      height: 100px;
+      background-size: 400px 400px;
+      background-position: 0 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .box .select {
+    width: 700px;
+    height: 130px;
+    margin-left: 200px;
+    margin-top: 20px; }
+    .box .select .s1 {
+      width: 370px;
+      height: 80px;
+      overflow: hidden;
+      float: left;
+      position: relative; }
+      .box .select .s1 .card {
+        width: 999999px;
+        height: 60px;
+        position: absolute;
+        left: 0; }
+        .box .select .s1 .card li {
+          float: left;
+          width: 80px;
+          height: 80px;
+          margin-left: 10px; }
+          .box .select .s1 .card li img {
+            width: 80px;
+            height: 80px;
+            float: left; }
+    .box .select span {
+      width: 30px;
+      height: 80px;
+      line-height: 60px;
+      background: #ddd;
+      text-align: center;
+      float: left; }
+
+.big {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 700px;
+  top: 260px;
+  border: 1px solid #f10;
+  display: none;
+  overflow: hidden; }
+  .big img {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+/*# sourceMappingURL=big.css.map */
